@@ -15,6 +15,13 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "html.suggest.html5": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -52,9 +59,9 @@
     ]
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.tslint": true,
-    "source.organizeImports": true
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
   },
   "eslint.alwaysShowStatus": true,
   // Live SASS Compiler
@@ -94,5 +101,6 @@
   "window.menuBarVisibility": "toggle",
   "glassit.alpha": 220,
   "security.workspace.trust.untrustedFiles": "open",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "tabnine.experimentalAutoImports": true
 }
